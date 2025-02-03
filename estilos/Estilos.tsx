@@ -11,6 +11,12 @@ export default StyleSheet.create({
         color: '#E0E0E0',
         fontSize:20
     },
+    textobotao:{
+      color: '#E0E0E0',
+      fontSize:20, 
+      textAlign: 'center',
+      alignItems: 'center'
+  },
       txtLogo: {
         fontSize: 30,
         fontWeight: 'bold',
@@ -21,6 +27,12 @@ export default StyleSheet.create({
         fontSize: 25, 
         fontWeight: 'bold',
         color: '#E0E0E0',
+        textAlign: 'center', 
+      },
+      txt1 : {
+        fontSize: 20, 
+        fontWeight: 'bold',
+        color: '#f00',
         textAlign: 'center', 
       },
       logoPrincipal: {
@@ -55,5 +67,69 @@ export default StyleSheet.create({
       },
       botaoTreinoPress:{
         backgroundColor: '#FF0000', // Cor diferente para o botão selecionado
+        alignContent: 'center',
+        justifyContent: 'center', 
+        borderColor: 'white', 
+        borderWidth: 1,
+        alignSelf: 'flex-end',
+        borderRadius: 5, 
+        color: 'white'
+      },
+      inputContainer: {
+        marginBottom: 15,
+      },
+      botaologin:{
+        backgroundColor: '#FF0000', // Cor diferente para o botão selecionado
+        width: 100,
+        height: 40,
+        borderColor: 'white', 
+        borderWidth: 1,
+        alignSelf: 'center', 
+        margin: 20,
+        justifyContent: 'center',
+        alignItems: 'center',  // Centraliza horizontalmente
+      },
+      botaoremover:{
+        backgroundColor: '#FF0000', // Cor diferente para o botão selecionado
+        width: 100,
+        height: 0,
+        borderColor: 'white', 
+        borderWidth: 1,
+        alignSelf: 'center', 
+        justifyContent: 'center',
+        alignItems: 'center',  // Centraliza horizontalmente
+      },
+      label: {
+        color: '#fff',
+        marginBottom: 5,
+      },
+      input: {
+        marginTop: 20,
+        height: 40,
+        width: 300,
+        borderColor: 'red',
+        borderWidth: 2,
+        borderRadius: 10,
+        paddingLeft: 10,
+        backgroundColor: '#fff',
+        color: '#333',
+      },
+      input2: {
+        marginTop: 10,
+        height: 40,
+        width: 300,
+        borderColor: 'red',
+        borderWidth: 2,
+        borderRadius: 10,
+        paddingLeft: 10,
+        backgroundColor: '#fff',
+        color: '#333',
+      },
+      esqueciSenha: {
+        marginTop: 10,
+        alignItems: 'center',
+      },
+      esqueciSenhaTexto: {
+        color: 'red',
       },
 })
